@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="1.224">
-  <testsuite name="src/__tests__/sample.test.js" errors="0" failures="0" skipped="0" timestamp="2024-08-21T07:20:13" time="0.864" tests="1">
-    <testcase classname="" name="Should render Hello World" time="0.012">
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="5.521">
+  <testsuite name="src/__tests__/main.test.js" errors="0" failures="0" skipped="0" timestamp="2024-08-27T06:26:25" time="5.114" tests="3">
+    <testcase classname="Scroll last chat message into view" name="Should scroll the last message in to the view" time="0.055">
+    </testcase>
+    <testcase classname="Scroll last chat message into view" name="Should not scroll the last message in to the view if user has make manual scrolls" time="0.017">
+    </testcase>
+    <testcase classname="Scroll last chat message into view" name="Should scroll the last message in to the view if user has make manual scrolls and clicked on scroll to bottom" time="0.323">
     </testcase>
   </testsuite>
 </testsuites>

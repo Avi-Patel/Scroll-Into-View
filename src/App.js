@@ -1,7 +1,7 @@
 import React from 'react';
 
+import { ChatFeed } from './components/chatFeed';
+
 export default function App() {
-  return (
-    <h1>Hello World</h1>
-  );
+  return <ChatFeed />;
 }
